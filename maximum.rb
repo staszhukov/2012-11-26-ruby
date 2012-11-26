@@ -1,11 +1,11 @@
-puts "Enter value for a:"
-a=gets
-puts "Enter value for b:"
-b=gets
+print "Enter value for a:"
+a=gets.delete("\n")
+print "Enter value for b:"
+b=gets.delete("\n")
 if a>b
-puts "Chislo #{a} bolshe #{b}"
+print "Chislo #{a} bolshe #{b}"
 elsif a==b
-puts "Chislo #{a} ravno #{b}"
+print "Chislo #{a} ravno #{b}"
 else
-puts "Chislo #{b} bolshe #{a}"
+print "Chislo #{b} bolshe #{a}"
 end
